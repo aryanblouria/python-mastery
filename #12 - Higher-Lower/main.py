@@ -43,14 +43,6 @@ def game(data, score):
       print(f"You're right! Current score: {score}")
     else:
       print(f"Sorry, that's wrong. Final score: {score}")
-    
-    # if who == answer:
-    #   score += 1
-    #   print(f"You're right! Current score: {score}")
-    #   game(data, score)
-    # else:
-    #   print(f"Sorry, that's wrong. Final score: {score}")
-    #   correct = False
 
 data = game_data.data
 score = 0
